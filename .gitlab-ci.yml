@@ -54,6 +54,6 @@ pages:           # Job nuevo para GitLab Pages
     - echo "Publicando en GitLab Pages..."
   artifacts:
     paths:
-      - mi-sitio    # Carpeta que quieres publicar
+      - public    # Carpeta que quieres publicar
   only:
     - main
