@@ -2,7 +2,7 @@ AFRAME.registerComponent('mensaje', {
   schema: {
     posicionOrigen: { type: 'vec3'},
     posicionDestino: { type: 'vec3'},
-    tiempoOrigen: { type: 'number'},
+    tiempoOrigen: { type: 'number'}, 
     tiempoDestino: { type: 'number'}
   },
 
